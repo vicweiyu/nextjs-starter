@@ -1,0 +1,16 @@
+# NodeJS
+node_modules
+package-lock.json
+
+# Build
+dist
+.next
+
+# Git
+.gitignore
+
+# TypeScript
+tsconfig.json
+
+# LICENSE
+LICENSE

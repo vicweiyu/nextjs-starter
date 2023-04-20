@@ -1,0 +1,31 @@
+@host=127.0.0.1:3000
+@path=api/cars
+
+###
+get http://{{host}}/{{path}}
+
+###
+post http://{{host}}/{{path}}
+Content-Type: application/json
+
+{
+    "id": 6,
+    "name": "508 SW"
+}
+
+###
+put http://{{host}}/{{path}}
+Content-Type: application/json
+
+{
+    "id": 6,
+    "name": "508 PSE"
+}
+
+###
+delete http://{{host}}/{{path}}
+Content-Type: application/json
+
+{
+    "id": 6
+}
