@@ -10,7 +10,7 @@ const Footer = () => {
 };
 
 export default function App({ Component, pageProps }: AppProps) {
-  console.log((Component as any).getTitle());
+  // console.log((Component as any).getTitle());
   console.log((Component as any).render);
 
   console.log(pageProps);
